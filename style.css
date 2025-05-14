@@ -19,7 +19,7 @@
         color: #22D4FD;
     }
     .apresentacao {
-        margin: 15%;
+        margin: 10% 15%;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -37,6 +37,9 @@
     .apresentacao__conteudo{
         width: 615px;
         font-family: "Krona One", sans-serif;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
     }
     .apresentacao__titulo{
         font-size: 36px;
